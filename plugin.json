@@ -1,0 +1,11 @@
+{
+    "name"              :   "Plug",
+    "namespace"         :   "Plug",
+    "type"              :   "backend",
+    "version"           :   "0.0.1",
+    "pluginIcon"        :   "icon_plugin_xs.png",
+    "description"       :   "Fetch Data",
+    "author"            :   "Developer",
+    "authorIcon"        :   "icon_author_xs.png",
+    "serviceProvider"   :   "Plug\\Providers\\PlugServiceProvider"
+}
