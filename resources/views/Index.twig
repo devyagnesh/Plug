@@ -1,1 +1,7 @@
-<h1>Plugin: Plug</h1>
+{# api_data.twig #}
+<h1>API Data</h1>
+<ul>
+    {% for item in data %}
+        <li>{{ item.name }}</li>
+    {% endfor %}
+</ul>
