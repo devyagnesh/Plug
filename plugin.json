@@ -1,6 +1,6 @@
 {
-    "name"              :   "Plug",
-    "namespace"         :   "Plug",
+    "name"              :   "BDroppy",
+    "namespace"         :   "BDroppy",
     "type"              :   "backend",
     "version"           :   "0.0.1",
     "pluginIcon"        :   "icon_plugin_xs.png",
