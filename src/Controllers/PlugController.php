@@ -14,12 +14,9 @@ class PlugController extends Controller
      * @param Twig $twig
      * @return string
      */
-    public function getHelloWorldPage(Twig $twig): string
+    public function getHelloWorldPage(Twig $twig):string
     {
         $RequestInstance = new Request();
-
-        $data = $RequestInstance->fetchData("Data.json");
-        $template = $twig->load('../../resources/views/Index.twig');
-        return $template->render(['data' => $data]);
+        return $twig->render('Plug::Index');
     }
 }
