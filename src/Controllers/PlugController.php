@@ -16,7 +16,7 @@ class PlugController extends Controller
      */
     public function getHelloWorldPage(Twig $twig):string
     {
-        $RequestInstance = new Request();
+        // $RequestInstance = new Request();
         return $twig->render('Plug::Index');
     }
 }
